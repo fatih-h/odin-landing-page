@@ -1,0 +1,187 @@
+/*Default Settings*/
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+/*Font and Color Properties*/
+h1 {
+  color: #f9faf8;
+  font-size: 4.8rem;
+  font-weight: extra-bold;
+}
+h2 {
+  color: #1f2937;
+  font-size: 3.6rem;
+  font-weight: extra-bold;
+}
+h3 {
+  color: #f9faf8;
+  font-size: 2.4rem;
+}
+h4 {
+  color: #e5e7eb;
+  font-size: 1.8rem;
+}
+h5{
+  font-size:2.2rem;
+}
+p {
+  font-size: 2rem;
+}
+
+/*Header section*/
+.header {
+  background-color: #1f2937;
+  display: flex;
+  height: 15vh;
+  padding: 3rem 22rem;
+}
+.header-title {
+  flex: 4;
+}
+.header-section {
+  flex: 3;
+  display: flex;
+}
+.header-section > h4 {
+  flex: 1;
+}
+
+/*Main section*/
+.main {
+  background-color: #1f2937;
+  display: flex;
+  padding: 10rem 20rem 14rem;
+  height: 70vh;
+  gap: 5rem;
+}
+.main-content {
+  flex: 1;
+  color: white;
+}
+.main-content > button {
+  background-color: #3882f6;
+  border-radius: 1rem;
+  border: 1px solid black;
+  color: white;
+  font-size: 2rem;
+  height: 4rem;
+  margin-top: 1rem;
+  width: 15rem;
+}
+.main-image {
+  flex: 1;
+}
+.main-image > img {
+  width: 90%;
+  height: auto;
+}
+
+/*Card section*/
+.cards {
+  padding: 5rem 10rem;
+  text-align: center;
+}
+.cards-title {
+  height: 20vh;
+  
+}
+.cards-section {
+  display: flex;
+  height: 50vh;
+  gap: 4rem;
+}
+.cards-section > * {
+  flex: 1;
+}
+
+
+/*Quote section*/
+.quote {
+  background-color: #e5e7eb;
+  height: 60vh;
+  padding: 10rem 32rem;
+}
+.quote > h2 {
+  color: #1f2937;
+  font-size: 3.6rem;
+  font-style: italic;
+  font-weight: 400;
+}
+.quote > p{
+  text-align:right;
+  font-size:3rem;
+  font-weight: bold;
+}
+
+/*Advertise section*/
+.adv {
+  background-color: #3882f6;
+  display:flex;
+  margin:10rem 20rem;
+  height:20vh;
+  padding:2rem 10rem;
+  border-radius: 2rem;
+  gap:5rem;
+  
+}
+.adv > *{
+  flex:1;
+  color:white;
+  
+}
+.adv-description{
+  padding-left:5rem;
+  padding-top:2rem;
+}
+.adv-button{
+  text-align: right;
+  padding-right: 5rem;
+  
+}
+.adv-button > button{
+  
+  background-color: #3882f6;
+  border-radius: 1rem;
+  border: 1px solid white;
+  color: white;
+  font-size: 3rem;
+  height: 6rem;
+  margin-top: 2rem;
+  width: 18rem;
+}
+
+/*Footer section*/
+.footer {
+  background-color: #1f2937;
+  height: 15vh;
+}
+.footer > p{
+  text-align:center;
+  color:white;
+  padding-top: 3rem;
+}
